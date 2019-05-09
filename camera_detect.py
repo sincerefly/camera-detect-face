@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, render_template, Response
-from gevent.wsgi import WSGIServer
+from gevent.pywsgi import WSGIServer
 import time
 import cv2
 import sys
